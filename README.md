@@ -2,6 +2,17 @@
 
 Little jupyter notebook to see who doesn't follow you
 
+Main function to look for
+- Near the bottom of the notebook
+
+```python
+def get_non_followers(follower_json, following_json):
+  """
+  Input the your own JSON object into follower_json and following_json.
+  Then run the cell to see result of who doesn't follow you back!
+  """
+````
+
 ## How to download your instagram data
 Go to you instagram account -> settings -> privacy and security -> download account info
 Instagram will then proceed to send you an email with your account's data.
