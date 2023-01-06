@@ -2,7 +2,7 @@
 
 Tiny jupyter notebook to see who doesn't follow you (it's a lot easier than you think)
 
-Main function to look for
+Main function to look for: get_non_followers()
 - Near the bottom of the notebook
 
 ```python
@@ -35,3 +35,9 @@ Instagram will then proceed to send you an email with your account's data.
 1. Unzip, and then go to ./login_and_account_creation/followers_and_following.
 2. Then, go into followers.json and following.json and get the JSON objects from there. 
 3. Finally, put your objects into the notebook and run every cell to see who doesn't follow you back.
+
+
+### Next steps
+* Get JSON object automatically
+* Clean up notebook
+* make ```who_to_unfollow.py``` file
