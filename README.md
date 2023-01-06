@@ -40,4 +40,3 @@ Instagram will then proceed to send you an email with your account's data.
 ### Next steps
 * Get JSON object automatically
 * Clean up notebook
-* make ```who_to_unfollow.py``` file
