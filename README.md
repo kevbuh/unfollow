@@ -1,6 +1,6 @@
 # insta_unfollow
 
-Little jupyter notebook to see who doesn't follow you
+Tiny jupyter notebook to see who doesn't follow you (it's a lot easier than you think)
 
 Main function to look for
 - Near the bottom of the notebook
