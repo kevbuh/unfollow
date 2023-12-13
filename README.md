@@ -1,4 +1,3 @@
-# Instagram Unfollow
 
 ![Alt text](https://theflashblog.com/wp-content/uploads/2023/03/How-to-Mass-Unfollow-on-Instagram.webp)
 
