@@ -3,7 +3,8 @@ import zipfile
 
 # put your zip file name here 
 # for example: dir_name = 'instagram-username-date-random.zip'
-zip_file_path = 'instagram-kevinbuhlerr-2023-12-12-uYbuX9Yq.zip'
+# zip_file_path = 'instagram-username-date-random.zip'
+zip_file_path = input("Enter your zip path, e.g instagram-username-date-random.zip -->")
 
 with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
     zip_ref.extractall('data')
@@ -18,7 +19,7 @@ def parse_following(json_file):
     curr_set = set()
     for user in json_file['relationships_following']:
       curr_set.add(user['string_list_data'][0]['value'])
-      print("following: ", user['string_list_data'][0]['value'])
+      # print("following: ", user['string_list_data'][0]['value'])
     return curr_set
 
 def parse_followers(json_file):
@@ -26,7 +27,7 @@ def parse_followers(json_file):
     curr_set = set()
     for user in json_file:
       curr_set.add(user['string_list_data'][0]['value'])
-      print("follower: ",user['string_list_data'][0])
+      # print("follower: ",user['string_list_data'][0])
     return curr_set
 
 following_set = parse_following(following_json)
