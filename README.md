@@ -1,4 +1,7 @@
-# Who Unfollowed?
+# Instagram Unfollow
+
+![Alt text](https://theflashblog.com/wp-content/uploads/2023/03/How-to-Mass-Unfollow-on-Instagram.webp)
+
 
 This website allows you to check which Instagram users are not following you back. Simply enter your Instagram login details, and the tool will analyze your followers and followings to determine who isn't reciprocating your follow.
 
