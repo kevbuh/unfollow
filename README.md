@@ -38,7 +38,3 @@ This script allows you to see who has unfollowed you on Instagram by analyzing y
 ## Contributing
 
 Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/kevbuh/unfollow/issues) if you want to contribute.
-
-## Note
-
-This tool is not affiliated with Instagram and does not violate Instagram's terms of service. However, it's important to note that using this tool may be against Instagram's automation rules, as it involves accessing Instagram's data in an automated way. We recommend using this tool sparingly to avoid any potential issues with Instagram.
