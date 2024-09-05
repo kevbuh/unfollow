@@ -1,16 +1,13 @@
 import json
 import zipfile
 
-# put your zip file name here 
-# for example: dir_name = 'instagram-username-date-random.zip'
-# zip_file_path = 'instagram-username-date-random.zip'
-zip_file_path = input("Enter your zip path, e.g instagram-username-date-random.zip -->")
+zip_file_path = input("Enter your zip path here, e.g instagram-username-date-random.zip -->")
 
 with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
-    zip_ref.extractall('data')
+    zip_ref.extractall('./connections')
 
-following = open("./data/followers_and_following/following.json","r")
-followers = open("./data/followers_and_following/followers_1.json","r")
+following = open(f"./connections/followers_and_following/following.json","r")
+followers = open(f"./connections/followers_and_following/followers_1.json","r")
 
 following_json = json.load(following)
 followers_json = json.load(followers)
